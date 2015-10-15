@@ -4,11 +4,13 @@ How to use the .aar file:
 Copy the sdk-release.aar into the apps libs folder.
 
 In your app.gradle add:
+```java
 repositories {
     flatDir {
         dirs 'libs' //this way we can find the .aar file in libs folder
     }
 }
+```
 
 and in the dependencies part of your app.gradle add:
 
