@@ -22,7 +22,7 @@ Additional dependencies to add in your app.gradle
 --------------------
 
     compile 'com.google.code.gson:gson:2.2.4'
-    compile 'org.atmosphere:wasync:2.1.2'
+    compile 'org.atmosphere:wasync:1.4.1'
     compile 'org.slf4j:slf4j-android:1.7.12'
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.fasterxml.jackson.core:jackson-core:2.6.0-rc3'
